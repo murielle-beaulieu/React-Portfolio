@@ -1,0 +1,12 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(341, 45%, 59%);
+    height: 65em;
+    p {
+        font-size: 1.8em;
+        width: 50%;
+    }
+}
