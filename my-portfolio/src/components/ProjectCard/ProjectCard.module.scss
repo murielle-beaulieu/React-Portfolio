@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40em;
+  width: 30em;
+  .skills {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+}
+
+.main_img {
+  height: 20em;
+  width: 20em;
+}
+
+.icon {
+  height: 3em;
+  width: 3em;
+}
+
+.redux {
+  height: 1em;
+}
