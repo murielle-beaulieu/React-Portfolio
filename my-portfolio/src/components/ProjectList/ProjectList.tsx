@@ -14,7 +14,6 @@ function ProjectList() {
         console.log("Failed" + e);
       });
   };
-  console.log(data);
 
   useEffect(() => {
     fetchData();

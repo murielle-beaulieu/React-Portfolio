@@ -4,7 +4,7 @@ import styles from "./About.module.scss";
 function About() {
   return (
     <section className={styles.about}>
-      <h1>About me</h1>
+      <h1>Let me introduce myself...</h1>
       <p>
         Curiosity was a core value in my family. Growing up, I was surrounded by
         parents and siblings spending their spare time both building things and taking other

@@ -1,0 +1,27 @@
+.contact_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  font-size: 2em;
+  color: #4c55d4;
+  border: 0.2em solid #4c55d4;
+  border-radius: 2em;
+  height: 20em;
+  margin: 4em auto;
+
+  div {
+    width: 8em;
+  }
+
+  a {
+    &:hover {
+      color: #f15a29;
+    }
+  }
+}
+
+.icon {
+  padding-right: 0.75em;
+}
