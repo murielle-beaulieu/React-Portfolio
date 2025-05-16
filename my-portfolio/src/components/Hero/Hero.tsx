@@ -1,5 +1,4 @@
 import styles from "./Hero.module.scss";
-import murielle from "../../assets/murielle.png";
 
 function Hero() {
     return (
