@@ -3,25 +3,35 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: black;
   height: 40em;
-  width: 30em;
+  width: 25em;
+  margin: 2em;
+  padding: 4em;
+  border: solid 4px #4c55d4;
+  border-radius: 2em;
+  header {
+    text-align: center;
+    margin: 0.75em;
+  }
   .skills {
     display: flex;
     flex-direction: row;
+    font-size: 3em;
     gap: 1em;
   }
 }
 
 .main_img {
-  height: 20em;
-  width: 20em;
+  height: 30em;
+  width: 30em;
 }
 
 .icon {
-  height: 3em;
-  width: 3em;
+  height: 4em;
+  width: 4em;
 }
 
-.redux {
+.own_logo {
   height: 1em;
 }

@@ -15,14 +15,21 @@
     height: 100%;
     color: white;
     padding: 10em;
+    background-color: #4C55D4;
     h1 {
-        font-size: 7em;
+        font-size: 8em;
     }
     h3 {
         font-size: 3em;
     }
 }
 
-.light {
-    background-color: #c66886;
+.img_div {
+    width: 10%;
+    img {
+        position: absolute;
+        right: 12em;
+        top: 15em;
+        height: 40em;
+    }
 }

@@ -6,7 +6,7 @@ function NavBar() {
       <section className={styles.logo}>
         <Link to="/"><h3>Murielle Beaulieu</h3></Link>
       </section>
-      <section>
+      <section className={styles.links}>
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>

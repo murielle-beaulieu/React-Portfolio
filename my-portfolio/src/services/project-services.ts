@@ -6,6 +6,7 @@ import {
 import { db } from '../config/firestore';
 
 export interface ProjectData {
+  id: string; 
   title: string;
   snippet: string;
   tech_stack: string[];
@@ -15,5 +16,8 @@ export interface ProjectData {
 export const getAllProjects = async () => {
   const collectionRef = collection(db, 'projects');
   const snapshot = await getDocs(collectionRef);
-  return snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+    return snapshot.docs.map((doc) => ({ 
+    id: doc.id, 
+    ...doc.data() 
+  }) as ProjectData);
 };
